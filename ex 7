@@ -1,0 +1,6 @@
+def funcf(arg):
+    if arg==1 or arg==2:
+      return 1
+    else :
+      return funcf(arg-1)+funcf(arg-2)
+funcf(7)
